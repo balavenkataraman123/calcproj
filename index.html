@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>we'll name this later</title>
+    </head>
+    <body>
+        <canvas id='canvas' width="640" height="480" style="border: 1px solid black;"></canvas>
+        <h2 id="coordinates"></h2>
+    </body>
+    <script>
+        const canv = document.getElementById('canvas');
+        const ctxt = canv.getContext('2d');
+        const w = canv.width;
+        const h = canv.height;
+
+        const rect = canv.getBoundingClientRect();
+
+        canv.addEventListener('mousemove', e => {
+
+        const x = e.pageX - rect.left;
+        const y = e.pageY - rect.top;
+
+        ctxt.clearRect(0, 0, canvas.width, canvas.height);
+        ctxt.beginPath();
+        ctxt.moveTo(0, y);
+        ctxt.lineTo(w, y);
+        ctxt.moveTo(x, 0);
+        ctxt.lineTo(x, h);
+        ctxt.stroke();
+        document.getElementById("coordinates").innerHTML = "(" + Math.round((x - 320)/5) + ", " + Math.round((y - 240)/5) + ")";
+        
+        });        
+    </script>
+</html>
+

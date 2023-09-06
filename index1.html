@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>we'll name this later</title>
+    </head>
+    <body>
+        <canvas id='canvas' width="640" height="480" style="border: 1px solid black;"></canvas>
+        <h2 id="coordinates"></h2>
+    </body>
+    <script>
+        const canv = document.getElementById('canvas');
+        const ctxt = canv.getContext('2d');
+        const w = canv.width;
+        const h = canv.height;
+
+        const rect = canv.getBoundingClientRect();
+
+        canv.addEventListener('mousemove', e => {
+
+        const x = e.pageX - rect.left;
+        const y = e.pageY - rect.top;
+        
+        const x1 = x - 320
+        const y1 = y - 240
+        const angle = - Math.atan(y1/x1) * (180 / 3.14159)
+        
+        var finx = 0
+        var finy = 0
+
+        const yinter = (y1/x1) * 320
+        
+        if(-240 <= yinter <= 240){
+            finx = 640;
+            finy = yinter + 240;
+        }
+        else{
+            xinter = (x1/y1)*240
+            finx = xinter
+        }
+        
+        
+
+        ctxt.clearRect(0, 0, canvas.width, canvas.height);
+        ctxt.beginPath();
+        ctxt.moveTo(320, 240);
+        ctxt.lineTo(finx, finy);
+        ctxt.stroke();
+        document.getElementById("coordinates").innerHTML = Math.round(angle);
+        
+        });        
+    </script>
+</html>
+
