@@ -1,21 +1,65 @@
 <!DOCTYPE html>
 <html>
+    <style>
+    .flex-container {
+        display: flex;
+    }
 
+    .flex-child {
+        flex: 1;
+        border: 2px solid yellow;
+    }  
+
+    .flex-child:first-child {
+        margin-right: 20px;
+    } 
+    </style>
     <head>
         <title>we'll name this later</title>
     </head>
     <body>
-        <canvas id='canvas' width="640" height="480" style="border: 1px solid black;"></canvas>
+        <div class="flex-container">
+
+            <div class="flex-child magenta">
+                <canvas id='canvas' width="640" height="480" style="border: 1px solid black;"></canvas>            
+            </div>
+            
+            <div class="flex-child green">
+              <h2 id="hits">Hits: 0</h2> <h2 id="misses">Misses: 0</h2> <h2 id="bombs">Remaining bombs: 10 </h2>
+              <h3 id = "problemtext"></h3>
+            </div>
+            
+        </div>        
+
         <h2 id="coordinates"></h2>
+        <div style="display:none;">
+            <img id="source" src="bomb.png" width="100" height="200" />
+            <img id="source1" src="cloud.png" width="100" height="100" />
+        </div>        
     </body>
     <script>
+        const sleepNow = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+
+        var obj;
+        var problemindex = 0;
+        fetch('http://127.0.0.1:5500/data.json')
+        .then(res => res.json())
+        .then(data => {
+            obj = data;
+        })
+        .then(() => {
+            console.log(obj);
+            currprob = obj["problems"][problemindex];
+            document.getElementById("problemtext").innerHTML = currprob["questiontext"]
+        });
+        
+
         const canv = document.getElementById('canvas');
         const ctxt = canv.getContext('2d');
         const w = canv.width;
         const h = canv.height;
 
         const rect = canv.getBoundingClientRect();
-
         canv.addEventListener('mousemove', e => {
 
         const x = e.pageX - rect.left;
@@ -27,10 +71,64 @@
         ctxt.lineTo(w, y);
         ctxt.moveTo(x, 0);
         ctxt.lineTo(x, h);
+        ctxt.moveTo(x,y)
+        ctxt.arc(x,y,20,0,2*Math.PI);
         ctxt.stroke();
-        document.getElementById("coordinates").innerHTML = "(" + Math.round((x - 320)/5) + ", " + Math.round((y - 240)/5) + ")";
+        document.getElementById("coordinates").innerHTML = "(" + Math.round((x - 320)/5) + ", " + Math.round((240 - y)/5) + ")";
         
+        });  
+
+        async function dropbomb(x,y){
+            const image = document.getElementById("source");
+            const cloud = document.getElementById("source1");
+            console.log("bombs away")
+            size = 100;
+            while(size > 0){               
+                console.log("bombs away")                
+                ctxt.drawImage(image, x-(size/2), y-(size), size , 2*size)
+                await sleepNow(10);
+                ctxt.clearRect(0,0,640,480)                
+                size -= 1
+
+            }
+            size = 100;
+            ctxt.drawImage(cloud, x-(size/2), y-(size), size , size)
+
+
+        }
+
+        canv.addEventListener('mousedown', e => {
+            const tx = e.pageX - rect.left;
+            const ty = e.pageY - rect.top;
+            const x = Math.round((tx - 320)/5)     
+            const y = Math.round((240 - ty)/5)        
+            console.log("deeznuts");
+            currprob = obj["problems"][problemindex];
+            hittext = document.getElementById("hits");
+            misstext = document.getElementById("misses");
+            bombtext = document.getElementById("bombs")
+            var numbombs = parseInt(bombtext.innerHTML.split(':', 2)[1])
+            var numhits = parseInt(hittext.innerHTML.split(':', 2)[1])
+            var nummiss = parseInt(misstext.innerHTML.split(':', 2)[1])
+            bombtext.innerHTML = "Remaining Bombs: " + (numbombs - 1)
+            dropbomb(tx,ty)
+            if(parseInt(currprob["answerx"]) == x &&  parseInt(currprob["answery"]) == y){
+                console.log("successful hit")               
+                hittext.innerHTML = "Hits: " + (numhits + 1)                
+            }
+            else{
+                misstext.innerHTML = "Misses: " + (nummiss + 1)                                
+            }
+            
+            problemindex += 1;
+            currprob = obj["problems"][problemindex];            
+            document.getElementById("problemtext").innerHTML = currprob["questiontext"]            
+            // verify the answer with the last answer in the JSON list
+            // delete the last item after
+            // subtract from the number of remaining bombs, add to the number of targets if there is a hit.
+            // display the explosion image on the screen, if the answer is correct.
         });        
+
     </script>
 </html>
 
