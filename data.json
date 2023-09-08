@@ -2,7 +2,7 @@
 
     "problems":[
         {
-            "questiontext": "To secure your military's air superiority, you need to destroy an anti aircraft gun battery that is located on the endpoint of a river, which follows the function y=3 sqrt(2x+4) + 5",
+            "questiontext": "To secure your military's air superiority, you need to destroy an anti aircraft gun battery that is located at the headwaters of the river, which follows the function y=3 sqrt(2x+4) + 5",
             "answerx":"-2",
             "answery":"5"
         },
@@ -10,6 +10,11 @@
             "questiontext": "An important highway follows the function y=5 log x^3 + 7. A railway track is the same shape as the highway, but rotated 90 degrees about the origin. Sever the enemy's supply line, by bombing the westernmost intersection of them",
             "answerx":"23",
             "answery":"24"
-        }
+        },
+        {
+            "questiontext": "The mountain range represented by the functions y=x^2+4x+2/6x+9 approaches a highway along a line in the map. The eastern counterintelligence facility is located just off that highway, along the longitude line x=9. Destroy it to protect your country's spies.",
+            "answerx":"23",
+            "answery":"24"
+        }        
     ]
 }
