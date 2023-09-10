@@ -86,16 +86,20 @@
             console.log("bombs away")
             size = 100;
             while(size > 0){               
-                console.log("bombs away")                
                 ctxt.drawImage(image, x-(size/2), y-(size), size , 2*size)
                 await sleepNow(10);
                 ctxt.clearRect(0,0,640,480)                
                 size -= 1
 
             }
-            size = 100;
-            ctxt.drawImage(cloud, x-(size/2), y-(size), size , size)
+            size = 1;
+            while(size < 150){               
+                ctxt.drawImage(cloud, x-(size/2), y-(size/2), size , size)
+                await sleepNow(5);
+                ctxt.clearRect(0,0,640,480)                
+                size += 1
 
+            }            
 
         }
 

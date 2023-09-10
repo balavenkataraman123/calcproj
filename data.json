@@ -3,11 +3,12 @@
     "problems":[
         {
             "questiontext": "To secure your military's air superiority, you need to destroy an anti aircraft gun battery that is located at the headwaters of the river, which follows the function y=3 sqrt(2x+4) + 5",
+            "hinttext":"consider the endpoint of the function. For what values is the square root function defined?",
             "answerx":"-2",
             "answery":"5"
         },
         {
-            "questiontext": "An important highway follows the function y=5 log x^3 + 7. A railway track is the same shape as the highway, but rotated 90 degrees about the origin. Sever the enemy's supply line, by bombing the westernmost intersection of them",
+            "questiontext": "An important highway follows the function y=5 log x^3 + 7. A railway track is the same shape as the highway, but reflected on the line y=x. Sever the enemy's supply line, by bombing the westernmost intersection of them",
             "answerx":"23",
             "answery":"24"
         },
