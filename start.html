@@ -6,7 +6,7 @@
     </head>
     <body style="border: 1px solid black; background: url('bombs.jpg'); background-size: cover;">
         <div class="container">
-            <div class="text"></div>
+            <H1 class="text"></H1>
         </div>
         <script>
             class TextScramble {
@@ -68,15 +68,25 @@
             // ——————————————————————————————————————————————————
 
             const phrases = [
-            'Neo,',
-            'sooner or later',
-            'you\'re going to realize',
-            'just as I did',
-            'that there\'s a difference',
-            'between knowing the path',
-            'and walking the path',
-            'and busting a nut'
+            'You are at war....',
+            'You have been chosen as an elite strategic bomber pilot for Westalis.',
+            'The enemy country, Ostania, is getting ready to launch a full scale land invasion, to take over your strategic oilfields and ports.',
+            'However, on the day of your bombing raid, thick cloud cover prevents you from spotting the targets.',
+            'Fear not though, The most skilled agent of the country\'s strategic intelligence division, Agent Twillight, has picked up a few clues.',
+            'The location of various natural and artificial geographical features like roads and rivers, follow mathematical functions. ',
+            'And besides this, there are other leads on locations of critical points, encrypted in mathematical problems',
+            'Given the clues for the location of each of the enemy\'s key strategic points, ',
+            'Your task is to find the coordinates (to the nearest integer, because your bombs are so powerful), and drop your nuclear payload.',
+            'You only get one chance per target, however. If you miss, the enemy finds out and relocates it.',
+            'If you need more information from base, you can request more information',
+            'However, your personal radio has enough battery charge only for 3 such transmissions, so use them sparingly.',
+            'Good luck, Captain! We need to protect the civillians of Westalis!',
+            'this text is not going to be'
             ]
+            // You are at war, general! You have been chosen as an elite fighter pilot for Westalis. The enemy country, Ostania, is getting ready for war, and has built a lot of military airfields and missile silos to dispatch bombers to Westalis cities. 
+
+            // Spies have been able to recover the location of these places of interest, but their 2D coordinates are encrypted within math problems. Can you neutralize the missile silos and save the day?
+
 
             const el = document.querySelector('.text')
             const fx = new TextScramble(el)
@@ -84,7 +94,7 @@
             let counter = 0
             const next = () => {
             fx.setText(phrases[counter]).then(() => {
-                setTimeout(next, 800)
+                setTimeout(next, 3000)
             })
             counter = (counter + 1)
             if(counter == phrases.length){

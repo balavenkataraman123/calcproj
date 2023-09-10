@@ -31,7 +31,7 @@
 
         },
         {
-            "questiontext": "A prototype autonomous Ostanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
+            "questiontext": "A prototype autonomous Ostanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile east. It started at the origin. Locate it and FINISH IT OFF!",
             "hinttext":"how many times does the line y=0.2x intersect y=3 sin 2 x",
             "answerx":"10",
             "answery":"10",
@@ -82,7 +82,7 @@
 
         },
         {
-            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (-6x - 40) / (x+7) respectfully.",
+            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (-6x - 40) / (x+7) respectfully. It is to be used to store valuable fuel used to power an army of tanks advancing to your capital",
             "hinttext":"Divide the function",
             "answerx":"-6",
             "answery":"-7",
@@ -98,7 +98,7 @@
 
         },
         {
-            "questiontext": "OH NO! A bomb has been planted on our highway that follows the function y = (x^2 + 5x) / (x^2 + x). After a helicpoter scout, you noticed that the bomb has been placed at the hole of the function, (x,y)",
+            "questiontext": "OH NO! A missile launcher has been set up on the highway that follows the function y = (x^2 + 5x) / (x^2 + x). A helicpoter scout has noticed that the missile launcher is located at a gap in the highway, where it has not been constructed.",
             "hinttext":"Find the x coordinate of the hole, then plug the x coordinate back into the equation",
             "answerx":"0",
             "answery":"5",
@@ -106,7 +106,7 @@
 
         },
         {
-            "questiontext": "Your covert operation has uncovered the location of an enemy base hidden deep within the jungle. Your mission is to infiltrate the base and disarm a highly dangerous device before it's too late.  The enemy base is guarded by a complex security system with multiple layers of protection. To access the device's disarmament code, you must solve a mathematical puzzle.  The puzzle involves finding the unique coordinates (x, y) that correspond to the device's control panel. The x and y coordinates are the amplitude and phase shift of the equation y = 2sin(x - 60) + 5 ",
+            "questiontext": "Your covert operation has uncovered the location of an enemy base hidden deep within the jungle. Your mission is to blow up the base to disarm a highly dangerous device before it's too late.  The enemy base is guarded by a complex security system with multiple layers of protection. To access the device's disarmament code, you must solve a mathematical puzzle.  The puzzle involves finding the unique coordinates (x, y) that correspond to the device's control panel. The x and y coordinates are the amplitude and phase shift of the equation y = 2sin(x - 60) + 5 ",
             "hinttext":"Remember VHS",
             "answerx":"2",
             "answery":"5",
@@ -114,7 +114,7 @@
 
         },
         {
-            "questiontext": "Your mission is to decode a set of ciphered coordinates that hold the key to the enemy's secret rendezvous point. The x-coordinate is the number of π radians after 360 degrees is converted to radians and the y-coordinate is the number of π radians after 2880 degrees is converted to radians.",
+            "questiontext": "Your mission is to decode a set of ciphered coordinates that hold the key to the enemy's secret rendezvous point. The x-coordinate is the number of π radians after 360 degrees is converted to radians and the y-coordinate is the number of π radians after 2880 degrees is converted to radians. Since there is a stockpile of weapons there, it is imperative to blow it up.",
             "hinttext":"To convert degrees to radians, you can use the conversion factor π / 180",
             "answerx":"2",
             "answery":"16",
@@ -130,8 +130,21 @@
 
         },
         {
+            "questiontext": "The enemy air base is located along a logging track, y=log((x-55)^4)/2  + 10. All you know is that it is located a mile east of a fork in the road.",
+            "hinttext":"Try to draw out or visualize the equation",
+            "answerx":"56",
+            "answery":"10",
+            "_Topic": "exp. and logs"
 
-        }
+        },
+        {
+            "questiontext": "The enemy air base is located along a logging track, y=log((x-55)^4)/2  + 10. All you knwo is that it is located a mile east of a fork in the road.",
+            "hinttext":"Try to draw out or visualize the equation",
+            "answerx":"56",
+            "answery":"10",
+            "_Topic": "exp. and logs"
+
+        }        
 
 
     ]
