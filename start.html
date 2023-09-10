@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>We'll name this later</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
-    <body>
+    <body style="border: 1px solid black; background: url('bombs.jpg'); background-size: cover;">
         <div class="container">
             <div class="text"></div>
         </div>
@@ -74,7 +74,8 @@
             'just as I did',
             'that there\'s a difference',
             'between knowing the path',
-            'and walking the path'
+            'and walking the path',
+            'and busting a nut'
             ]
 
             const el = document.querySelector('.text')
@@ -85,7 +86,10 @@
             fx.setText(phrases[counter]).then(() => {
                 setTimeout(next, 800)
             })
-            counter = (counter + 1) % phrases.length
+            counter = (counter + 1)
+            if(counter == phrases.length){
+                location.replace("index.html")
+            }
             }
 
             next()            
