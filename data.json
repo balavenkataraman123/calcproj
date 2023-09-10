@@ -31,7 +31,7 @@
 
         },
         {
-            "questiontext": "A prototype autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
+            "questiontext": "A prototype autonomous Ostanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
             "hinttext":"how many times does the line y=0.2x intersect y=3 sin 2 x",
             "answerx":"10",
             "answery":"10",
@@ -46,13 +46,6 @@
 
         },
 
-        {
-            "questiontext": "A prototype autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
-            "hinttext":"Consider the removable discontinuity",
-            "answerx":"10",
-            "answery":"10",
-            "_Topic": "Trig"            
-        },
         {
             "questiontext": "Your mission is to secure a crucial bridge located deep within enemy territory. The enemy has rigged the bridge with explosives, and you need to determine the location of the bombs.  The location of the bombs are tied to a polynomial inequality: 2x^2 - 6x + 4 < 0. The (x,y) coordinates of the bomb are the lower bound and upper bound of the answer respectfully. ",
             "hinttext":"Start by factoring",
@@ -135,7 +128,11 @@
             "answery":"-1",
             "_Topic": "Trig"
 
+        },
+        {
+
         }
+
 
     ]
 }        
