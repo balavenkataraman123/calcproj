@@ -138,13 +138,28 @@
 
         },
         {
-            "questiontext": "The enemy air base is located along a logging track, y=log((x-55)^4)/2  + 10. All you knwo is that it is located a mile east of a fork in the road.",
+            "questiontext": "Secret jungle trails, cloesly following the lines of y= log(2x) and y=2 log x, cross at a strategic surface-air missile base. Where could it be? ",
             "hinttext":"Try to draw out or visualize the equation",
-            "answerx":"56",
-            "answery":"10",
+            "answerx":"2",
+            "answery":"1",
             "_Topic": "exp. and logs"
 
+        },
+        {
+            "questiontext": "A rather unreliable artillery vehicle travels due west, along the line y=10. It's been travelling for quite a while. Each minute, however, due to engine problems, it only travels 1/3rd as far as it did in the past minute. If it travelled at 80mph for the first minute, where would it be by now?",
+            "hinttext":"Try to draw out or visualize the equation",
+            "answerx":"2",
+            "answery":"10",
+            "_Topic": "exp. and logs"
+        }         
+        {
+            "questiontext": "The enemy has encrypted critical information regarding the location of an air base along the line y=30, in this question: What is the reminder when the function  x^6 - 5x^4 + 3x^2 + 10 is divided by x-2 ?",
+            "hinttext":"Try to draw out or visualize the equation",
+            "answerx":"6",
+            "answery":"30",
+            "_Topic": "Functions"
         }        
+        
 
 
     ]
