@@ -22,7 +22,7 @@
         <div class="flex-container">
 
             <div class="flex-child magenta">
-                <canvas id='canvas' width="640" height="480" style="border: 1px solid black;"></canvas>            
+                <canvas id='canvas' width="640" height="480" style="border: 1px solid black; background: url('cloudcover.png')"></canvas>            
             </div>
             
             <div class="flex-child green">
@@ -106,7 +106,6 @@
                 await sleepNow(10);
                 ctxt.clearRect(0,0,640,480)                
                 size -= 1
-
             }
             size = 1;
             while(size < 150){               
@@ -116,7 +115,6 @@
                 size += 1
 
             }            
-
         }
 
         canv.addEventListener('mousedown', e => {
@@ -134,7 +132,7 @@
             var nummiss = parseInt(misstext.innerHTML.split(':', 2)[1])
             if(numbombs > 0){            
             bombtext.innerHTML = "Remaining Bombs: " + (numbombs - 1)
-            
+
             dropbomb(tx,ty)
             if(parseInt(currprob["answerx"]) == x &&  parseInt(currprob["answery"]) == y){
                 console.log("successful hit")               
