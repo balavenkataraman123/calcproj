@@ -134,6 +134,7 @@
             var nummiss = parseInt(misstext.innerHTML.split(':', 2)[1])
             if(numbombs > 0){            
             bombtext.innerHTML = "Remaining Bombs: " + (numbombs - 1)
+            
             dropbomb(tx,ty)
             if(parseInt(currprob["answerx"]) == x &&  parseInt(currprob["answery"]) == y){
                 console.log("successful hit")               
