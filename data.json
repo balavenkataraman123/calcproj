@@ -5,17 +5,41 @@
             "questiontext": "To secure your military's air superiority, you need to destroy an anti aircraft gun battery that is located at the headwaters of the river, which follows the function y=3 sqrt(2x+4) + 5",
             "hinttext":"consider the endpoint of the function. For what values is the square root function defined?",
             "answerx":"-2",
-            "answery":"5"
+            "answery":"5",
+            "_Topic": "Functions"
         },
         {
-            "questiontext": "An important highway follows the function y=5 log x^3 + 7. A railway track is the same shape as the highway, but reflected on the line y=x. Sever the enemy's supply line, by bombing the westernmost intersection of them",
-            "answerx":"23",
-            "answery":"24"
+            "questiontext": "An important highway follows the function y=5 log x^3 + x + 7. A railway track is the shape of the inverse function of the highway. Sever the enemy's supply line, by bombing the westernmost intersection of them",
+            "hinttext":"Consider this: The inverse of a function is that function reflected on the line y=x",
+            "answerx":"3",
+            "answery":"3",
+            "_Topic": "Functions, exp. and logs"
+
         },
         {
-            "questiontext": "The mountain range represented by the functions y=x^2+4x+2/6x+9 approaches a highway along a line in the map. The eastern counterintelligence facility is located just off that highway, along the longitude line x=9. Destroy it to protect your country's spies.",
-            "answerx":"23",
-            "answery":"24"
-        }        
+            "questiontext": "The mountain range represented by the functions approaches a highway along a line in the map that goes from the far east to the far west. The eastern counterintelligence facility is located just off that highway, along the longitude line x=-6. Destroy it to protect your country's spies.",
+            "hinttext":"consider the oblique asymptote of the function",
+            "answerx":"-6",
+            "answery":"-3",
+            "_Topic": "Functions"
+        },
+        {
+            "questiontext": "The Hyperbolic forest follows the function y= (x^2 + 16x + 63)/(x^2 +12x + 35). However, there's a single clearing in the forest, where an army is training in guerilla warfare to launch a land invasion on Westalis. Find it and blow it up.",
+            "hinttext":"Consider the removable discontinuity",
+            "answerx":"-7",
+            "answery":"-1",
+            "_Topic": "Functions"
+
+        },
+        {
+            "questiontext": "A prototype autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
+            "hinttext":"Consider the removable discontinuity",
+            "answerx":"10",
+            "answery":"10",
+            "_Topic": "Trig"            
+        }
+        
+
+
     ]
 }
