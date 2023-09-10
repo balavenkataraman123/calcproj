@@ -1,5 +1,4 @@
 {
-
     "problems":[
         {
             "questiontext": "To secure your military's air superiority, you need to destroy an anti aircraft gun battery that is located at the headwaters of the river, which follows the function y=3 sqrt(2x+4) + 5",
@@ -33,13 +32,112 @@
         },
         {
             "questiontext": "A prototype autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
+            "hinttext":"how many times does the line y=0.2x intersect y=3 sin 2 x",
+            "answerx":"10",
+            "answery":"10",
+            "_Topic": "Trig"            
+        },
+        {
+            "questiontext": "The enemy has launched a rogue satellite into space, equipped with a powerful communication device. To prevent them from intercepting sensitive information, you must destroy the satellite. However, the satellite's coordinates are determined by the sum and difference of the coefficents of the rational polynomial function, (4x^3 - 2x^2 + 8x - 6)/(2x - 1). ",
+            "hinttext":"Use long division",
+            "answerx":"8",
+            "answery":"-4",
+            "_Topic": "Polynomials"
+
+        },
+
+        {
+            "questiontext": "A prototype autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile west. It started at the origin. Locate it and FINISH IT OFF!",
             "hinttext":"Consider the removable discontinuity",
             "answerx":"10",
             "answery":"10",
             "_Topic": "Trig"            
-        }
-        
+        },
+        {
+            "questiontext": "Your mission is to secure a crucial bridge located deep within enemy territory. The enemy has rigged the bridge with explosives, and you need to determine the location of the bombs.  The location of the bombs are tied to a polynomial inequality: 2x^2 - 6x + 4 < 0. The (x,y) coordinates of the bomb are the lower bound and upper bound of the answer respectfully. ",
+            "hinttext":"Start by factoring",
+            "answerx":"1",
+            "answery":"2",
+            "_Topic": "Polynomials"
 
+            
+        },
+
+        {
+            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (6y^3 + 12y^2 - 4y + ) / (y - 2) is not factor of this polynomial. The (x,y) coordinates will be at the sum and difference of the digits of the remainder respectfully.   ",
+            "hinttext":"Use remainder theorem",
+            "answerx":"17",
+            "answery":"-1",
+            "_Topic": "Polynomials"
+
+        },
+
+        {
+            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (x^3 - 6x^2 + 11x - 6) / (x). The (x,y) coordinates will be at the sum and difference of the digits of the remainder. ",
+            "hinttext":"Use remainder theorem",
+            "answerx":"6",
+            "answery":"-2",
+            "_Topic": "Polynomials"
+
+        },
+        {
+            "questiontext": "Our enemy has encrypted information about the location of a secret highway. To decode this information, you must find the holes of (x^5 - 3x^4 - 59x^3 + 243x^2 + 58x - 240) / (x^3 - 12x^2 + 41x - 30). Organize the holes in ascending order. The (x,y) coordinates will be at the sum and difference of the holes respectfully. ",
+            "hinttext":"Factor the numerator and denominator and find common factors",
+            "answerx":"12",
+            "answery":"-10",
+            "_Topic": "Rationals"
+
+        },
+        {
+            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (-6x - 40) / (x+7) respectfully.",
+            "hinttext":"Divide the function",
+            "answerx":"-6",
+            "answery":"-7",
+            "_Topic": "Rationals"
+
+        },
+        {
+            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (8x - 27) / (x - 5) respectfully.",
+            "hinttext":"Divide the function",
+            "answerx":"8",
+            "answery":"5",
+            "_Topic": "Rationals"
+
+        },
+        {
+            "questiontext": "OH NO! A bomb has been planted on our highway that follows the function y = (x^2 + 5x) / (x^2 + x). After a helicpoter scout, you noticed that the bomb has been placed at the hole of the function, (x,y)",
+            "hinttext":"Find the x coordinate of the hole, then plug the x coordinate back into the equation",
+            "answerx":"0",
+            "answery":"5",
+            "_Topic": "Rationals"
+
+        },
+        {
+            "questiontext": "Your covert operation has uncovered the location of an enemy base hidden deep within the jungle. Your mission is to infiltrate the base and disarm a highly dangerous device before it's too late.  The enemy base is guarded by a complex security system with multiple layers of protection. To access the device's disarmament code, you must solve a mathematical puzzle.  The puzzle involves finding the unique coordinates (x, y) that correspond to the device's control panel. The x and y coordinates are the amplitude and phase shift of the equation y = 2sin(x - 60) + 5 ",
+            "hinttext":"Remember VHS",
+            "answerx":"2",
+            "answery":"5",
+            "_Topic": "Trig"
+
+        },
+        {
+            "questiontext": "Your mission is to decode a set of ciphered coordinates that hold the key to the enemy's secret rendezvous point. The x-coordinate is the number of π radians after 360 degrees is converted to radians and the y-coordinate is the number of π radians after 2880 degrees is converted to radians.",
+            "hinttext":"To convert degrees to radians, you can use the conversion factor π / 180",
+            "answerx":"2",
+            "answery":"16",
+            "_Topic": "Trig"
+
+        },
+        {
+            "questiontext": "After intercepting an enemy transmission, you've learned about the location of a secret nuclear missile silo. However, the coordinates are encrypted using mathematical expressions. To uncover the location, you need to decipher the coordinates hidden within the exact value of cos(60). The x-coordinate is the sum of the numerator and denominator and the y-coordinate is the difference between the numerator and denominator. ",
+            "hinttext":"Recall your special angles",
+            "answerx":"3",
+            "answery":"-1",
+            "_Topic": "Trig"
+
+        }
 
     ]
-}
+}        
+
+    
