@@ -66,6 +66,9 @@
                 hinttext.innerHTML = currprob["hinttext"];        
 
             }
+            if(numhints == 0){
+                bombtext.innerHTML = "Radio battery depleted. No further communication with base";                
+            }
 
         }
 
@@ -129,6 +132,7 @@
             var numbombs = parseInt(bombtext.innerHTML.split(':', 2)[1])
             var numhits = parseInt(hittext.innerHTML.split(':', 2)[1])
             var nummiss = parseInt(misstext.innerHTML.split(':', 2)[1])
+            if(numbombs > 0){            
             bombtext.innerHTML = "Remaining Bombs: " + (numbombs - 1)
             dropbomb(tx,ty)
             if(parseInt(currprob["answerx"]) == x &&  parseInt(currprob["answery"]) == y){
@@ -148,7 +152,14 @@
             // delete the last item after
             // subtract from the number of remaining bombs, add to the number of targets if there is a hit.
             // display the explosion image on the screen, if the answer is correct.
-        });        
+        }
+        else{
+            bombtext.innerHTML = "You have run out of bombs";
+
+        }
+    }
+        
+        );        
 
     </script>
 </html>
