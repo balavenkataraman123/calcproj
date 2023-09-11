@@ -8,7 +8,7 @@
             "_Topic": "Functions"
         },
         {
-            "questiontext": "An important highway follows the function y=5 log x^3 + x + 7. A railway track is the shape of the inverse function of the highway. Sever the enemy's supply line, by bombing the westernmost intersection of them",
+            "questiontext": "An important highway follows the function y= 5 log x^3 + x - 7.. A railway track is the shape of the inverse function of the highway. Sever the enemy's supply line, by bombing the intersection of them",
             "hinttext":"Consider this: The inverse of a function is that function reflected on the line y=x",
             "answerx":"3",
             "answery":"3",
@@ -39,7 +39,7 @@
 
         },        
         {
-            "questiontext": "A prototype autonomous Ostanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile east. It started at the origin. Locate it and FINISH IT OFF!",
+            "questiontext": "A prototype nuclear-armed autonomous Onstanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 1/3600π hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0, and the slope of the wave is positive at time 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile east. It started at the origin. Locate it and FINISH IT OFF!",
             "hinttext":"how many times does the line y=0.2x intersect y=3 sin 2 x",
             "answerx":"10",
             "answery":"10",
@@ -66,18 +66,18 @@
         },
 
         {
-            "questiontext": "Another one! The enemy has encrypted critical information related to the location of another hidden resource cache. To decode this information, you must find the remainder of (x^3 - 6x^2 + 11x - 6) / (x). The (x,y) coordinates will be at the sum and absolute difference of the digits of the remainder. ",
+            "questiontext": " The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (x^3 - 6x^2 + 11x - 6) / (x). The (x,y) coordinates will both be the remainder. ",
             "hinttext":"Use remainder theorem", 
             "answerx":"6",
-            "answery":"2",
+            "answery":"6",
             "_Topic": "Polynomials"
 
         },
         {
-            "questiontext": "Our spies have discovered encrypted information about the location of a secret military base. To decode this information, you must find the holes of (x^5 - 3x^4 - 59x^3 + 243x^2 + 58x - 240) / (x^3 - 12x^2 + 41x - 30). The base is at the coordinates of the easternmost hole. ",
+            "questiontext": "Our spies have discovered encrypted information about the location of a secret military base. To decode this information, you must find the holes of (x^5 - 3x^4 - 59x^3 + 243x^2 + 58x - 240) / (x^3 - 12x^2 + 41x - 30). The base is at the coordinates of the westernmost hole. ",
             "hinttext":"Factor the numerator and denominator and find common factors",
-            "answerx":"12",
-            "answery":"-10",
+            "answerx":"1",
+            "answery":"18",
             "_Topic": "Rationals"
 
         },
@@ -85,7 +85,7 @@
             "questiontext": "An oil tank is located at the intersection of the HA and VA of (-6x - 40) / (x-7). Find it and destroy it.",
             "hinttext":"Divide the function",
             "answerx":"7",
-            "answery":"6",
+            "answery":"-6",
             "_Topic": "Rationals"
 
         },
@@ -122,10 +122,10 @@
 
         },
         {
-            "questiontext": "After intercepting an enemy transmission, you've learned about the location of a secret nuclear missile silo. However, the coordinates are encrypted using mathematical expressions. To uncover the location, you need t decipher the coordinates hidden within the exact value of cos(60). The x-coordinate is the sum of the numerator and denominator and the y-coordinate is the absolute difference between the numerator and denominator. ",
+            "questiontext": "After intercepting an enemy transmission, you've learned about the location of a secret nuclear missile silo. However, the coordinates are encrypted using mathematical expressions. To uncover the location, you need to decipher the coordinates hidden within the exact value of cos(60). The x-coordinate is the sum of the numerator and denominator and the y-coordinate is the absolute difference between the numerator and denominator.",
             "hinttext":"Recall your special angles",
             "answerx":"3",
-            "answery":"-1",
+            "answery":"1",
             "_Topic": "Trig"
 
         },
@@ -138,7 +138,7 @@
 
         },
         {
-            "questiontext": "Secret jungle trails, cloesly following the lines of y= log(2x) and y=2 log x, cross at a strategic surface-air missile base. Where could it be? ",
+            "questiontext": "Secret jungle trails, following the lines of y= log(2x) and y=2 log x, cross at a strategic surface-air missile base. Where could it be? ",
             "hinttext":"Try to remove the coefficient from the log expresssion",
             "answerx":"2",
             "answery":"1",
@@ -146,7 +146,7 @@
 
         },
         {
-            "questiontext": "A rather unreliable artillery vehicle travels due west, along the line y=10. It's been travelling for quite a while. Each minute, however, due to engine problems, it only travels 1/3rd as far as it did in the past minute. If it travelled at 80mph for the first minute, where would it be by now?",
+            "questiontext": "A rather unreliable artillery vehicle travels due east, along the line y=10. It's been travelling for quite a while. Each minute, however, due to engine problems, it only travels 1/3rd as far as it did in the past minute. If it travelled at 80mph for the first minute, where would it be by now?",
             "hinttext":"This is a geometric series.",
             "answerx":"2",
             "answery":"10",

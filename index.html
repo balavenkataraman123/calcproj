@@ -96,11 +96,20 @@
         
         });  
 
-        async function dropbomb(x,y){
+        async function dropbomb(x,y, h){
             const image = document.getElementById("source");
             const cloud = document.getElementById("source1");
+            hittext = document.getElementById("hits");
+            misstext = document.getElementById("misses");            
             console.log("bombs away")
             size = 100;
+            if(h == 1){
+                hittext.style.backgroundColor = "#FF0000";
+
+            }
+            else{
+                misstext.style.backgroundColor = "#FF0000";
+            }
             while(size > 0){               
                 ctxt.drawImage(image, x-(size/2), y-(size), size , 2*size)
                 await sleepNow(10);
@@ -115,6 +124,14 @@
                 size += 1
 
             }            
+            if(h == 1){
+                hittext.style.backgroundColor = "#FFFFFF";
+
+            }
+            else{
+                misstext.style.backgroundColor = "#FFFFFF";
+            }
+
         }
 
         canv.addEventListener('mousedown', e => {
@@ -133,20 +150,32 @@
             if(numbombs > 0){            
             bombtext.innerHTML = "Remaining Bombs: " + (numbombs - 1)
 
-            dropbomb(tx,ty)
+            
             if(parseInt(currprob["answerx"]) == x &&  parseInt(currprob["answery"]) == y){
                 console.log("successful hit")               
-                hittext.innerHTML = "Hits: " + (numhits + 1)                
+                hittext.innerHTML = "Hits: " + (numhits + 1)
+                dropbomb(tx,ty, 1)                                
             }
             else{
-                misstext.innerHTML = "Misses: " + (nummiss + 1)                                
+                misstext.innerHTML = "Misses: " + (nummiss + 1)   
+                dropbomb(tx,ty, 0)                                                                             
             }
             
             problemindex += 1;
+
+            if(problemindex == 20){
+
+            document.getElementById("problemtext").innerHTML = "Your bombing raid has completed. Check the hit and miss counter to see how successful you were."
+            hinttext = document.getElementById("hinttext");
+            hinttext.innerHTML = ""
+
+            }
+            else{
             currprob = obj["problems"][problemindex];            
             document.getElementById("problemtext").innerHTML = currprob["questiontext"]            
             hinttext = document.getElementById("hinttext");
             hinttext.innerHTML = ""
+            }            
             // verify the answer with the last answer in the JSON list
             // delete the last item after
             // subtract from the number of remaining bombs, add to the number of targets if there is a hit.
