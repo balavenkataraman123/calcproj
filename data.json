@@ -12,14 +12,14 @@
             "hinttext":"Consider this: The inverse of a function is that function reflected on the line y=x",
             "answerx":"3",
             "answery":"3",
-            "_Topic": "Functions, exp. and logs"
+            "_Topic": "exp. and logs"
 
         },
         {
-            "questiontext": "The mountain range represented by the functions approaches a highway along a line in the map that goes from the far east to the far west. The eastern counterintelligence facility is located just off that highway, along the longitude line x=-6. Destroy it to protect your country's spies.",
+            "questiontext": "The mountain range represented by the function (2x^2 6x + 9) / (4x + 20) approaches a highway along a line in the map that goes from the far east to the far west. The eastern counterintelligence facility is located just off that highway, along the longitude line x=-6. Destroy it to protect your country's spies.",
             "hinttext":"consider the oblique asymptote of the function",
             "answerx":"-6",
-            "answery":"-3",
+            "answery":"-4",
             "_Topic": "Functions"
         },
         {
@@ -31,23 +31,23 @@
 
         },
         {
+            "questiontext": "The enemy has launched a rogue satellite into space, equipped with a powerful communication device. To prevent them from intercepting sensitive information, you must destroy the satellite’s control tower. the tower’s x and y coordinates are determined respectively by the sum and absolute value of the difference of the coefficients of the simplest version of this rational polynomial function, (4x^3 - 2x^2 + 8x - 6)/(2x - 1). (the discontinuities do not need to be considered in this problem)",
+            "hinttext":"Use long division",
+            "answerx":"6",
+            "answery":"2",
+            "_Topic": "Polynomials"
+
+        },        
+        {
             "questiontext": "A prototype autonomous Ostanian main battle tank uses an infrasonic sound transmitted over radio to communicate. The spies have discovered it is a monotone sound wave with frequency of 2/3600 hz, and maximum amplitude of 3 units. Each time the time, in hours since midnight last week (when the time and amplitude were both 0), is 5 times as much as the Amplitude of the sound, the tank drives a mile north and a mile east. It started at the origin. Locate it and FINISH IT OFF!",
             "hinttext":"how many times does the line y=0.2x intersect y=3 sin 2 x",
             "answerx":"10",
             "answery":"10",
             "_Topic": "Trig"            
         },
-        {
-            "questiontext": "The enemy has launched a rogue satellite into space, equipped with a powerful communication device. To prevent them from intercepting sensitive information, you must destroy the satellite. However, the satellite's coordinates are determined by the sum and difference of the coefficents of the rational polynomial function, (4x^3 - 2x^2 + 8x - 6)/(2x - 1). ",
-            "hinttext":"Use long division",
-            "answerx":"8",
-            "answery":"-4",
-            "_Topic": "Polynomials"
-
-        },
 
         {
-            "questiontext": "Your mission is to secure a crucial bridge located deep within enemy territory. The enemy has rigged the bridge with explosives, and you need to determine the location of the bombs.  The location of the bombs are tied to a polynomial inequality: 2x^2 - 6x + 4 < 0. The (x,y) coordinates of the bomb are the lower bound and upper bound of the answer respectfully. ",
+            "questiontext": "Question 7: Your mission is to secure a crucial bridge located deep within enemy territory. The enemy has rigged the bridge with explosives, and you need to determine the location of the detonator controls.  The location of the controller is tied to a polynomial inequality: 2x^2 - 6x + 4 < 0. The (x,y) coordinates of the bomb are the lower bound and upper bound of the answer respectfully.",
             "hinttext":"Start by factoring",
             "answerx":"1",
             "answery":"2",
@@ -57,24 +57,24 @@
         },
 
         {
-            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (6y^3 + 12y^2 - 4y + ) / (y - 2) is not factor of this polynomial. The (x,y) coordinates will be at the sum and difference of the digits of the remainder respectfully.   ",
+            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (6y^3 + 12y^2 - 4y + 1) / (y - 2) is not factor of this polynomial. The (x,y) coordinates will be at the sum and absolute difference of the digits of the remainder respectfully.   ",
             "hinttext":"Use remainder theorem",
             "answerx":"17",
-            "answery":"-1",
+            "answery":"1",
             "_Topic": "Polynomials"
 
         },
 
         {
-            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (x^3 - 6x^2 + 11x - 6) / (x). The (x,y) coordinates will be at the sum and difference of the digits of the remainder. ",
-            "hinttext":"Use remainder theorem",
+            "questiontext": "Another one! The enemy has encrypted critical information related to the location of another hidden resource cache. To decode this information, you must find the remainder of (x^3 - 6x^2 + 11x - 6) / (x). The (x,y) coordinates will be at the sum and absolute difference of the digits of the remainder. ",
+            "hinttext":"Use remainder theorem", 
             "answerx":"6",
-            "answery":"-2",
+            "answery":"2",
             "_Topic": "Polynomials"
 
         },
         {
-            "questiontext": "Our enemy has encrypted information about the location of a secret highway. To decode this information, you must find the holes of (x^5 - 3x^4 - 59x^3 + 243x^2 + 58x - 240) / (x^3 - 12x^2 + 41x - 30). Organize the holes in ascending order. The (x,y) coordinates will be at the sum and difference of the holes respectfully. ",
+            "questiontext": "Our spies have discovered encrypted information about the location of a secret military base. To decode this information, you must find the holes of (x^5 - 3x^4 - 59x^3 + 243x^2 + 58x - 240) / (x^3 - 12x^2 + 41x - 30). The base is at the coordinates of the easternmost hole. ",
             "hinttext":"Factor the numerator and denominator and find common factors",
             "answerx":"12",
             "answery":"-10",
@@ -82,23 +82,23 @@
 
         },
         {
-            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (-6x - 40) / (x+7) respectfully. It is to be used to store valuable fuel used to power an army of tanks advancing to your capital",
+            "questiontext": "An oil tank is located at the intersection of the HA and VA of (-6x - 40) / (x-7). Find it and destroy it.",
             "hinttext":"Divide the function",
-            "answerx":"-6",
-            "answery":"-7",
+            "answerx":"7",
+            "answery":"6",
             "_Topic": "Rationals"
 
         },
         {
-            "questiontext": "The (x,y) coordinates of an oil tank is located at the HA and VA of (8x - 27) / (x - 5) respectfully.",
+            "questiontext": "Similar to the last target, An enemy resource cache is located at the intersection of the HA and VA of (8x - 27) / (x - 5) respectively.",
             "hinttext":"Divide the function",
-            "answerx":"8",
-            "answery":"5",
+            "answerx":"5",
+            "answery":"8",
             "_Topic": "Rationals"
 
         },
         {
-            "questiontext": "OH NO! A missile launcher has been set up on the highway that follows the function y = (x^2 + 5x) / (x^2 + x). A helicpoter scout has noticed that the missile launcher is located at a gap in the highway, where it has not been constructed.",
+            "questiontext": "A Surface to air missile launcher has been set up on the highway that follows the function y = (x^2 + 5x) / (x^2 + x). A helicopter scout has noticed that the missile launcher is located at a single point gap in the highway, where it has not been constructed.",
             "hinttext":"Find the x coordinate of the hole, then plug the x coordinate back into the equation",
             "answerx":"0",
             "answery":"5",
@@ -106,7 +106,7 @@
 
         },
         {
-            "questiontext": "Your covert operation has uncovered the location of an enemy base hidden deep within the jungle. Your mission is to blow up the base to disarm a highly dangerous device before it's too late.  The enemy base is guarded by a complex security system with multiple layers of protection. To access the device's disarmament code, you must solve a mathematical puzzle.  The puzzle involves finding the unique coordinates (x, y) that correspond to the device's control panel. The x and y coordinates are the amplitude and phase shift of the equation y = 2sin(x - 60) + 5 ",
+            "questiontext": "Your covert operation has uncovered the location of an enemy base hidden deep within the jungle. Your mission is to blow up the base to disarm a highly dangerous device before it's too late. The coordinates to the enemy base is guarded by a complex security system with multiple layers of protection. To access the location, you must solve a mathematical puzzle. The puzzle involves finding the unique coordinates x and y, which are the base’s location. The x and y coordinates are the amplitude and phase shift of the equation y = 2sin(12x - 60) + 5 ",
             "hinttext":"Remember VHS",
             "answerx":"2",
             "answery":"5",
@@ -122,7 +122,7 @@
 
         },
         {
-            "questiontext": "After intercepting an enemy transmission, you've learned about the location of a secret nuclear missile silo. However, the coordinates are encrypted using mathematical expressions. To uncover the location, you need to decipher the coordinates hidden within the exact value of cos(60). The x-coordinate is the sum of the numerator and denominator and the y-coordinate is the difference between the numerator and denominator. ",
+            "questiontext": "After intercepting an enemy transmission, you've learned about the location of a secret nuclear missile silo. However, the coordinates are encrypted using mathematical expressions. To uncover the location, you need t decipher the coordinates hidden within the exact value of cos(60). The x-coordinate is the sum of the numerator and denominator and the y-coordinate is the absolute difference between the numerator and denominator. ",
             "hinttext":"Recall your special angles",
             "answerx":"3",
             "answery":"-1",
@@ -139,7 +139,7 @@
         },
         {
             "questiontext": "Secret jungle trails, cloesly following the lines of y= log(2x) and y=2 log x, cross at a strategic surface-air missile base. Where could it be? ",
-            "hinttext":"Try to draw out or visualize the equation",
+            "hinttext":"Try to remove the coefficient from the log expresssion",
             "answerx":"2",
             "answery":"1",
             "_Topic": "exp. and logs"
@@ -147,14 +147,14 @@
         },
         {
             "questiontext": "A rather unreliable artillery vehicle travels due west, along the line y=10. It's been travelling for quite a while. Each minute, however, due to engine problems, it only travels 1/3rd as far as it did in the past minute. If it travelled at 80mph for the first minute, where would it be by now?",
-            "hinttext":"Try to draw out or visualize the equation",
+            "hinttext":"This is a geometric series.",
             "answerx":"2",
             "answery":"10",
             "_Topic": "exp. and logs"
-        }         
+        },         
         {
-            "questiontext": "The enemy has encrypted critical information regarding the location of an air base along the line y=30, in this question: What is the reminder when the function  x^6 - 5x^4 + 3x^2 + 10 is divided by x-2 ?",
-            "hinttext":"Try to draw out or visualize the equation",
+            "questiontext": "The enemy has encrypted critical information regarding the location of an air base along the line y=30, in this question: What is the reminder when the function  x^6 - 5x^4 + 3x^2 + 10 is divided by x-2 ? The X coordinate is the remainder",
+            "hinttext":"You can either divide, or use a certain theorem",
             "answerx":"6",
             "answery":"30",
             "_Topic": "Functions"
