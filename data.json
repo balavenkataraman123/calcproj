@@ -57,7 +57,7 @@
         },
 
         {
-            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (6y^3 + 12y^2 - 4y + 1) / (y - 2) is not factor of this polynomial. The (x,y) coordinates will be at the sum and absolute difference of the digits of the remainder respectfully.   ",
+            "questiontext": "The enemy has encrypted critical information related to the location of a hidden resource cache. To decode this information, you must find the remainder of (6y^3 + 12y^2 - 4y + 1) / (y - 2). The (x,y) coordinates will be at the sum and absolute difference of the digits of the remainder respectfully.   ",
             "hinttext":"Use remainder theorem",
             "answerx":"17",
             "answery":"1",
